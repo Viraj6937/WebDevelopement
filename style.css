@@ -1,0 +1,171 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFE3E1;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF9494;
+    margin: 15px 10px 20px 10px;
+}
+
+img{
+  width: 100%;
+  padding: 5px 5px 5px 15px;
+  border-radius:5%;
+}
+
+#cornetto-pricelabel{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 9px;
+}
+
+#cornetto-alert{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 9px;
+    color: red;
+    visibility: hidden;
+} 
+
+#cornetto-checkprice{
+    border-style: none;
+    width: 100px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF9494;
+    border: none;
+    margin: 1px 2px 15px -20px;
+    padding: 8px;
+    color: white;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+#cornetto-checkprice:hover{
+    color: white;
+    opacity: 100%;
+    border: 1px solid #FF9494;
+    color: #FF9494;
+    background-color: white;   
+    transition: 1s;
+}
+
+#cornetto-orderNow{
+    border-style: none;
+    width: 100px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF9494;
+    border: none;
+    margin: 1px 2px 15px -20px;
+    padding: 8px;
+    color: white;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+#cornetto-orderNow:hover{
+    color: white;
+    opacity: 100%;
+    border: 1px solid #FF9494;
+    color: #FF9494;
+    background-color: white;   
+    transition: 1s;
+}
+
+#chocolate{
+    width: 15%;
+}
+
+#butterscotch{
+    width: 15%;
+}
+
+#royalkulfi{
+   width: 15%;
+}
+#kulfimalai{
+    width: 15%;
+}
+
+#pista{
+    width: 15%;
+}
+
+#rajbog{
+    width: 15%;
+}
+
+#matkamalai{
+    width: 15%;
+}
+
+#matkapista{
+    width: 15%;
+}
+
+#cornetto-quantity{
+    width: 20%;
+    border-style: none;
+    margin: 4px 5px 8px 1px;
+
+}
+
+.card{
+    border: 0px solid gray;
+    margin: 30px 20px 10px 10px;
+    padding: 20px 20px 10px 10px;
+    box-sizing: border-box;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #FF9494;
+     min-width: 200px;
+}
+
+.color{
+    padding: 0px 12px 0px 15px;
+}
+
+.color-flavour{
+    text-align: center;
+    margin: 5px 1px 10px 5px;
+    display: inline;
+}
+
+.color-flavour:hover{
+    cursor: pointer;
+}
+
+.cart-display{
+    width: 100px;
+    margin: auto;
+}
+
+.card-section{
+    width: 80%;
+    margin: auto;
+    justify-content: left;
+}
+
+.info{
+  max-width: 265px;
+  margin: 0px 1px 5px 5px;
+  padding: 15px;
+}
+
+#cornetto-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight:bold;
+    color: #FF9494;
+    margin: auto;
+    text-align: justify;
+    word-break: break-all;
+}

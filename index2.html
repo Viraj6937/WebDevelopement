@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <div class="main">
+    <h1>Creamy..</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <!-- Test-->
+        <div class="card-section">
+          <div class="card">
+            <img id="cornetto-flavour" src="./images/capture4.jpg" alt="cornetto-image">
+            <div class="color-flavour">
+              <img src="./images/caputure7.png" id="chocolate" onclick="Cornetto('Cornetto-Double Chocolate')">
+              <img src="./images/capture8.png" id="butterscotch" onclick="Cornetto('Cornetto-Butterscotch')">
+              <img src="./images/capture9.png" id="royalkulfi" onclick="Cornetto('Cornetto-Royal kulfi')">
+            </div>
+          </div>
+        <!-- </div> -->
+        <div class="container info" id="info-card">
+          <h2 id="cornetto-title">Cornetto-Double Chocolate</h2>
+          <div class="container">
+              <input type="number" value= "1" id="cornetto-quantity">
+              <label id="cornetto-alert">Invalid</label>
+              <label id="cornetto-pricelabel">₹ 70</label>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <input type="submit" id="cornetto-checkprice" value="check price" onclick="cornettoPriceCal()">
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <input type="submit" id="cornetto-orderNow" value="order now" onclick="placeOrder()">              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <!-- Test-->
+        <div class="card-section">
+          <div class="card">
+            <img id="kulfi-flavour" src="./images/capture10.jpg">
+            <div class="color-flavour">
+              <img src="./images/capture8.png" id="kulfimalai" onclick="kulfimalai()">
+              <img src="./images/capture10.png" id="pista" onclick="pistaKulfi()">
+              <img src="./images/capture9.png" id="rajbog" onclick="rajbhog()">
+            </div>        
+          </div>
+        </div>
+        </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <!-- Test-->
+        <div class="card-section">
+        <div class="card">
+          <img id="matka-flavour" src="./images/capture14.jpg">
+          <!-- <h3>Makta - King</h3> -->
+          <div class="color-flavour">
+            <img src="./images/capture8.png" id="matkamalai" onclick="matkaMalai()">
+            <img src="./images/capture10.png" id="matkapista" onclick="matkaPista()">
+          </div>
+          <!-- <button id="cart">Add to Cart</button> -->
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
