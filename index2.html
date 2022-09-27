@@ -13,7 +13,8 @@
 </head>
 <body>
   <div class="main">
-    <h1>Creamy..</h1>
+    <h1>Creamy...</h1>
+
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-12">
@@ -35,19 +36,10 @@
               <label id="cornetto-alert">Invalid</label>
               <label id="cornetto-pricelabel">₹ 70</label>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-sm-6">
-                <input type="submit" id="cornetto-checkprice" value="check price" onclick="cornettoPriceCal()">
-              </div>
-              <div class="col-lg-6 col-sm-6">
-                <input type="submit" id="cornetto-orderNow" value="order now" onclick="placeOrder()">              
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-      </div>
+     </div>
+     
       <div class="col-lg-4 col-md-6 col-sm-12">
         <!-- Test-->
         <div class="card-section">
@@ -59,8 +51,26 @@
               <img src="./images/capture9.png" id="rajbog" onclick="rajbhog()">
             </div>        
           </div>
+          <div class="container info" id="info-card2">
+            <h2 id="koolfi-title">Koolfi-Mawa Malai</h2>
+            <div class="container">
+                <input type="number" value= "1" id="koolfi-quantity">
+                <label id="koolfi-alert">Invalid</label>
+                <label id="koolfi-pricelabel">₹ 40</label>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <input type="submit" id="koolfi-checkprice" value="check price" onclick="koolfiPriceCal()">
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <input type="submit" id="koolfi-orderNow" value="order now" onclick="placeKoolfiOrder()">              
+                </div>
+              </div>
+            </div>
         </div>
         </div>
+      </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
         <!-- Test-->
         <div class="card-section">
@@ -72,6 +82,25 @@
             <img src="./images/capture10.png" id="matkapista" onclick="matkaPista()">
           </div>
           <!-- <button id="cart">Add to Cart</button> -->
+        </div>
+
+        <div class="container info" id="info-card3">
+          <h2 id="matka-title">Matka-Malai</h2>
+          <div class="container">
+              <input type="number" value= "1" id="matka-quantity">
+              <label id="matka-alert">Invalid</label>
+              <label id="matka-pricelabel">₹ 65</label>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <input type="submit" id="matka-checkprice" value="check price" onclick="koolfiPriceCal()">
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <input type="submit" id="matka-orderNow" value="order now" onclick="placeMatkaOrder()">              
+              </div>
+            </div>
+          </div>
         </div>
         </div>
       </div>

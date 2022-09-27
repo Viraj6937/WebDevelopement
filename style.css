@@ -25,6 +25,20 @@ img{
     margin-bottom: 9px;
 }
 
+#koolfi-pricelabel{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 9px;
+}
+
+#matka-pricelabel{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 9px;
+}
+
 #cornetto-alert{
     font-size: 15px;
     margin-left: 15px;
@@ -33,6 +47,24 @@ img{
     color: red;
     visibility: hidden;
 } 
+
+#koolfi-alert{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 9px;
+    color: red;
+    visibility: hidden;
+}
+
+#matka-alert{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 9px;
+    color: red;
+    visibility: hidden;
+}
 
 #cornetto-checkprice{
     border-style: none;
@@ -80,27 +112,118 @@ img{
     transition: 1s;
 }
 
+#koolfi-checkprice{
+    border-style: none;
+    width: 100px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF9494;
+    border: none;
+    margin: 1px 2px 15px -20px;
+    padding: 8px;
+    color: white;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+#koolfi-checkprice:hover{
+    color: white;
+    opacity: 100%;
+    border: 1px solid #FF9494;
+    color: #FF9494;
+    background-color: white;   
+    transition: 1s;
+}
+
+#koolfi-orderNow{
+    border-style: none;
+    width: 100px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF9494;
+    border: none;
+    margin: 1px 2px 15px -20px;
+    padding: 8px;
+    color: white;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+#koolfi-orderNow:hover{
+    color: white;
+    opacity: 100%;
+    border: 1px solid #FF9494;
+    color: #FF9494;
+    background-color: white;   
+    transition: 1s;
+}
+
+#matka-checkprice{
+    border-style: none;
+    width: 100px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF9494;
+    border: none;
+    margin: 1px 2px 15px -20px;
+    padding: 8px;
+    color: white;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+#matka-checkprice:hover{
+    color: white;
+    opacity: 100%;
+    border: 1px solid #FF9494;
+    color: #FF9494;
+    background-color: white;   
+    transition: 1s;
+}
+
+#matka-orderNow{
+    border-style: none;
+    width: 100px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF9494;
+    border: none;
+    margin: 1px 2px 15px -20px;
+    padding: 8px;
+    color: white;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+#matka-orderNow:hover{
+    color: white;
+    opacity: 100%;
+    border: 1px solid #FF9494;
+    color: #FF9494;
+    background-color: white;   
+    transition: 1s;
+}
+
 #chocolate{
-    width: 15%;
+    width: 14%;
 }
 
 #butterscotch{
-    width: 15%;
+    width: 14%;
 }
 
 #royalkulfi{
-   width: 15%;
+   width: 14%;
 }
 #kulfimalai{
-    width: 15%;
+    width: 14%;
 }
 
 #pista{
-    width: 15%;
+    width: 14%;
 }
 
 #rajbog{
-    width: 15%;
+    width: 14%;
 }
 
 #matkamalai{
@@ -115,7 +238,18 @@ img{
     width: 20%;
     border-style: none;
     margin: 4px 5px 8px 1px;
+}
 
+#koolfi-quantity{
+    width: 20%;
+    border-style: none;
+    margin: 4px 5px 8px 1px;
+}
+
+#matka-quantity{
+    width: 20%;
+    border-style: none;
+    margin: 4px 5px 8px 1px;
 }
 
 .card{
@@ -160,6 +294,22 @@ img{
   padding: 15px;
 }
 
+.info2{
+    max-width: 265px;
+    margin: 0px 1px 5px 5px;
+    padding: 15px;
+}
+
+.info3{
+    max-width: 265px;
+    margin: 0px 1px 5px 5px;
+    padding: 15px;
+}
+
+.selectOption{
+    margin:auto;
+}
+
 #cornetto-title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -169,3 +319,24 @@ img{
     text-align: justify;
     word-break: break-all;
 }
+
+#koolfi-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight:bold;
+    color: #FF9494;
+    margin: auto;
+    text-align: justify;
+    word-break: break-all;
+}
+
+#matka-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight:bold;
+    color: #FF9494;
+    margin: auto;
+    text-align: justify;
+    word-break: break-all;
+}
+
